@@ -1,0 +1,10 @@
+package com.gqt.crs.entity;
+
+/**
+ * @author Dhanu
+ */
+public class admin {
+	private int admin_id;
+	private int admin_password;
+
+}

@@ -5,6 +5,16 @@ package com.gqt.crs.entity;
  */
 public class admin {
 	private int admin_id;
+	private int admin_password;
+	/**
+	 * @param admin_id
+	 * @param admin_password
+	 */
+	public admin(int admin_id, int admin_password) {
+		super();
+		this.admin_id = admin_id;
+		this.admin_password = admin_password;
+	}
 	/**
 	 * @return the admin_id
 	 */
@@ -29,15 +39,5 @@ public class admin {
 	public void setAdmin_password(int admin_password) {
 		this.admin_password = admin_password;
 	}
-	/**
-	 * @param admin_id
-	 * @param admin_password
-	 */
-	public admin(int admin_id, int admin_password) {
-		super();
-		this.admin_id = admin_id;
-		this.admin_password = admin_password;
-	}
-	private int admin_password;
 
 }
