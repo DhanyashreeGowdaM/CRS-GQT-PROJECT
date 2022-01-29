@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package com.gqt.crs.entity;
+
+/**
+ * @author Dhanu
+ */
+public class professor {
+
+}

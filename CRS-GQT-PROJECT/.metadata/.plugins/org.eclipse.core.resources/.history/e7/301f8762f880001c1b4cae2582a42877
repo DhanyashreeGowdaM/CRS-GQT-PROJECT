@@ -1,0 +1,13 @@
+package com.gqt.crs.entity;
+
+/**
+ * @author Dhanu
+ */
+public class professor {
+	private int professor_id;
+	private String professor_name;
+	private String professor_email;
+	private int professor_password;
+	
+
+}
